@@ -1,4 +1,10 @@
 import numpy as np
+
+x = np.array([1,2,3,4,5])
+y = np.array([6,7,8,9,10])
+print(x*y)
+
+exit()
 print(list(range(0,5)))
 print(list(range(0,10,2))) 
 
