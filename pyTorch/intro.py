@@ -15,22 +15,22 @@ import torch
 # A tensor can be constructed from a Python list or sequence using the torch.tensor() constructor.
 
 #Scalar
-'''
+
 x = torch.tensor(3.14159)
 print(x)
 print(type(x))
 print(x.ndim)
 print(x.shape)
 print(x.item())
-'''
+
 
 #Vector
-'''
+
 vactor = torch.tensor([1,2,3,4,5])
 print(vactor)
 print(vactor.ndim)
 print(vactor.shape)
-'''
+
 #Matrix
 matrix = torch.tensor([[1,2,3],[4,5,6]])
 print(matrix)
